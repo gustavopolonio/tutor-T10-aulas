@@ -1,0 +1,44 @@
+/* FLEXBOX */
+
+/* inline / block */
+
+/* display: flex */
+
+/* pai: flex-container */
+
+/* filhos: flex-items */
+
+
+.container {
+  background-color: yellow;
+  height: 800px;
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+}
+
+.div {
+  width: 200px;
+  height: 200px;
+}
+
+/* flex-grow | flex-shrik | flex-basis */
+
+.div-1 {
+  background-color: blue;
+  /* margin: auto; */
+}
+
+.div-2 {
+  background-color: green;
+
+}
+
+.div-3 {
+  background-color: orange;
+
+}

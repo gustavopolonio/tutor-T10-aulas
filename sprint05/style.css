@@ -1,0 +1,29 @@
+body {
+  /* margin: 0; */
+}
+
+section {
+  /* background-color: red; */
+  max-width: 984px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+html {
+  font-size: 30px;
+}
+
+h1 {
+  width: 2rem;;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    color: green;
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+  background-color: yellow;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+  height: 2000px;
+}
+
+.div {
+  width: 150px;
+  height: 150px;
+}
+
+.div1 {
+  background-color: red;
+
+  position: relative;
+  z-index: 1;
+}
+
+.div2 {
+  background-color: blue;
+
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  /* bottom: 0; */
+  /* left: 0; */
+  /* top: 20px;
+  right: 20px; */
+  /* left */
+  /* bottom */
+}
+
+.div3 {
+  background-color: green;
+
+  position: relative;
+  z-index: 2;
+}

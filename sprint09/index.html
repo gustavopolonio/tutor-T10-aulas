@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form novalidate class="popup__form">
+      <input
+        type="text"
+        placeholder="Username"
+        name="username"
+        required
+        minlength="3"
+        maxlength="8"
+        class="form__input form__input_type_username"
+      />
+      <span id="username-error" class="form__input-error">Erro</span>
+
+      <input class="form__input" type="number" name="age" min="0" />
+      <span id="age-error" class="form__input-error">Erro</span>
+
+      <input
+        class="form__input"
+        type="url"
+        placeholder="url"
+        required
+        name="url"
+      />
+      <span id="url-error" class="form__input-error">Erro</span>
+
+      <input
+        class="form__input"
+        type="email"
+        placeholder="email"
+        required
+        name="email"
+      />
+      <span id="email-error" class="form__input-error">Erro</span>
+
+      <button type="submit" class="form__submit">Enviar</button>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
