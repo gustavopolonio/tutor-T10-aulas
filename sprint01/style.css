@@ -1,26 +1,98 @@
-/* INLINE, BLOCK, INLINE-BLOCK */
-
-/* inline: span, a, strong */
-
-/* block: h1,..., h6, div, form, footer, main, p */
-
-/* inline-block: button, input */
-
-
-/* BOX MODEL - modelo de caixa retangular - 4 camadas */
-
 body {
   margin: 0;
-  height: 100vh;
+}
+
+/* CSS - Cascading style sheet */
+
+
+/* pixel */
+/* porcetagem */
+/* vw, vh */
+
+/* CORES */
+/* RGB - Red, green, blue -> 0 - 255 */
+/* Hexadeciaml */
+
+
+
+/* Tipografia */
+/* h1 {
+  color: red;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+
+  line-height: 16px;
+  text-align: center;
+} */
+
+/* SELETORES CSS */
+/* p {
+  color: green;
+} */
+
+/* .texto {
+  color: green;
+}
+
+.principal {
+  color: red;
+}
+
+#titulo {
+  color: yellow;
+} */
+
+/* .titulo, .principal {
+  color: red;
+} */
+
+/* p.texto {
+  color: red;
+} */
+
+/* div .texto {
+  color: red;
+} */
+
+
+/* inline | block | inline-block */
+/* inline: ficam na mesma linha, ocupa so a largura dele => span, strong, a */
+/* block: fica sozinho na linha dele, ocupa 100% da largura do pai => h1...h6, div, form, p, section */
+/* inline-block: button, input */
+
+span {
+  display: block;
+}
+
+/* BOX MODEL - Modelo de Caixa */
+/* 1 - Content -> conteudo */
+/* 2 - Padding -> preenchimento interno */
+/* 3 - border: borda */
+/* 4 - Margin -> espaço externo ao elemento */
+
+
+h1 {
+  box-sizing: border-box;
+  background-color: blue;
+
+  /* padding: 16px 20px; */
+  padding: 10px;
+
+  /* border: 2px solid black; */
+
+  margin: 10px 24px;
+
+  width: 200px;
+  height: 50px;
+}
+
+body {
   display: flex;
+  height: 100vh;
 }
 
 button {
-  /* display: block; */
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto; */
-
+  display: block;
   margin: auto;
 }

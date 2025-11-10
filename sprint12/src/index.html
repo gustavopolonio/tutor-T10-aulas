@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__user-name"></h1>
+    <p class="header__user-about"></p>
+    <img src="" alt="">
+  </header>
+
+  <section class="cards">
+    <ul class="cards__list"></ul>
+  </section>
+
+  <form class="form">
+    <input type="text" placeholder="Nome usuário" class="username-input">
+    <input type="text" placeholder="Sobre usuário" class="about-input">
+    
+    <button type="submit">Atualizar</button>
+  </form>
+
+
+  <template id="card-template">
+    <li class="card">
+      <img class="card__image" src="" alt="">
+      <div class="card__data">
+        <h3 class="card__title"></h3>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
+  </template>
+
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
